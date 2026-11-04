@@ -1,0 +1,19 @@
+# 构建产物
+dist/
+build/
+*.spec
+*.exe
+*.zip
+selftest.txt
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 根目录临时截图（正式截图只放 docs/images/）
+/*.png
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
