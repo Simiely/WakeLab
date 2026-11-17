@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 文档维护 · 2026-11-17
+
+- 接入 knowledge-base 的**单项目规范**（spec 2.1.3 / repo-kit 2.7.3，profile `link-only`）
+- 新增 `schema/taxonomy.json`、`tools/repo-kit/`、`tools/update-repo-kit.ps1`、`schema/kit.lock.json` 与 CI
+- CI 显式安装文档依赖：本仓用 PyInstaller 打包，放一份只含文档依赖的 `requirements.txt` 会误导
+- - 验收：`REPO CHECK: PASS`（ERROR=0）、`KIT LOCK: PASS (v2.7.3, spec=2.1.3)`
+
 ## v1.1.0 — 2026-11-04
 
 ### 变更
